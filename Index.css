@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Italianno&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+body{
+    font-family: "Outfit", serif;
+
+}
+
+}
+#submit{
+    cursor: pointer;
+    background-color: rgb(32, 32, 198);
+    border-radius: 12px;
+    border: none;
+    color: white;
+}
+
+#submit:hover{
+    background-color: blue;
+}
+
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    /* background: linear-gradient(to top left, #3ed8ff, #a8f5ff); */
+    background: linear-gradient(to top left,red,blue );
+}
+
+.inner-box{
+    width: 400px;
+    height: 450px;
+    margin: 0 auto;
+    position: relative;
+    top: 20%;
+    padding: 20px 40px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #212122;
+}
+
+.signup-header, .signup-body, .signup-footer{
+    position:relative;
+    top: 35px;
+}
+
+h1{
+    font-size: 2.5rem;
+    color: #212122;
+}
+
+.signup-header p{
+    color: red;
+    font-size: 0.8rem;
+}
+
+.signup-body p{
+    margin: 20px;
+}
+
+.signup-body p label{
+    display: block;
+}
+
+.signup-body p input{
+    border-radius: 4px;
+    /* background-color: rgb(215, 217, 221); */
+    /* border: none; */
+    /* background-color: rgb(243, 233, 220); */
+
+    width: 100%;
+    padding: 5px;
+    border: 2px solid #cccc;
+    
+}
+
+.signup-footer{
+    color: #555;
+    text-align: center;
+}
+
+.signup-footer a{
+    color:#2773a5 ;
+}
